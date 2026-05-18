@@ -14,7 +14,7 @@ depends: [
   "ocaml" {>= "5.1.0"}
   "dune" {>= "3.17.0"}
 ]
-available: arch != "arm32" & arch != "x86_32"
+available: arch != "x86_32"
 synopsis: "Shims for Jane Street compiler extensions"
 description: "
 Janestreet_shims provides shims for Jane Street compiler extensions
